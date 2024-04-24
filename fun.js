@@ -13,6 +13,6 @@
 //     console.log (this)
 // }
 // cahi()
-(function(){console.log('hello')})() //example of IIFE
-
+(function(){console.log('hello')})(); //example of IIFE
+((name)=>{console.log(`hello2 ${name}`)})('pragyan');
 
