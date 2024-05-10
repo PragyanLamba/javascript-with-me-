@@ -15,3 +15,6 @@
 // for (const key in map) {
 // console.log(key)
 // }
+const mynums=[1,2,3,4,5,6,7,8,8,9,9]
+let val=mynums.filter((num)=>{ return num>4})
+console.log(val)
