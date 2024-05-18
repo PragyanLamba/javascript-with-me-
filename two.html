@@ -8,6 +8,7 @@
 <body>
     <h1>Chai aur code</h1>
     <button id="stop">Stop</button>
+    <button id="change">change</button>
 </body>
 <script>
     const sayHitesh = function(){
@@ -22,6 +23,11 @@
     document.querySelector('#stop').addEventListener('click', function(){
         clearTimeout(changeMe)
         console.log("STOPPED")
+    })
+    document.querySelector('#change').addEventListener('click', function(){
+        
+        document.querySelector('h1').innerHTML = "hello its me pragyan "
+      
     })
 </script>
 </html>
